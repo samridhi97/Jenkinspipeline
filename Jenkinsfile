@@ -1,5 +1,5 @@
 Jenkinsfile
-pipeline
+pipeline {
 agent any
 stages{
 stage('Build')
@@ -24,4 +24,4 @@ echo "deploy"
 }
 }
 }
-
+}
