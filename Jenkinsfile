@@ -6,21 +6,21 @@ stage('Build')
 {
 steps
 {
-echo "build"
+echo "build step"
 }
 }
 stage('Test')
 {
 steps
 {
-echo "test"
+echo "test step"
 }
 }
 stage('Deploy')
 {
 steps
 {
-echo "deploy"
+echo "deploy step"
 }
 }
 }
